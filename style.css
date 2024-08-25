@@ -111,3 +111,21 @@ button:hover {
     background: linear-gradient(to right, #ff512f, yellow);
     color: white;
 }
+
+@media (max-width: 600px) {
+    formn{
+        padding: 10px;
+        box-shadow: none;
+        border-radius: 0;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        padding: 8px;
+    }
+
+    button {
+        padding: 8px;
+    }
+}
