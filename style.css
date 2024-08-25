@@ -111,3 +111,12 @@ button:hover {
     background: linear-gradient(to right, #ff512f, yellow);
     color: white;
 }
+
+@media screen and (max-width: 600px) {
+    label, 
+    input, 
+    button {
+       flex: 100%;
+       min-width: 100%;
+    }
+}
