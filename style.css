@@ -114,7 +114,7 @@ button:hover {
 }
 
 @media (max-width: 600px) {
-    formn{
+    form{
         padding: 10px;
         box-shadow: none;
         border-radius: 0;
