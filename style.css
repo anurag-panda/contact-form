@@ -9,13 +9,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
 }
 
 .container {
     max-width: 430px;
-    height: auto;
+    heighta 520px;
     position: relative;
+    top: -50%;
+    left: -50%;
 }
 
 .container .circle1, .circle2 {
@@ -39,6 +40,7 @@ body {
 
 form {
     max-width: 430px;
+    height: 520px;
     background-color: rgba(255, 255, 255, 0.08);
     position: relative;
     border-radius: 10px;
