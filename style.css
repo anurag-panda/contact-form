@@ -111,26 +111,3 @@ button:hover {
     color: white;
 }
 
-@media (max-width: 600px) {
-    .container {
-        width: 100%;
-        padding: 20px;
-        max-width: 100%;
-    }
-
-    form {
-        padding: 20px;
-        box-shadow: none;
-        border-radius: 10px;
-        width: 100%;
-        max-width: 100%;
-    }
-
-    input {
-        padding: 8px;
-    }
-
-    button {
-        padding: 10px;
-    }
-}
