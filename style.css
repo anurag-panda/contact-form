@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-    width: 430px;
+    width: auto;
     height: 520px;
     position: absolute;
     transform: translate(-50%, -50%);
@@ -39,7 +39,7 @@ body {
 
 form {
     height: 520px;
-    width: 430px;
+    width: auto;
     background-color: rgba(255,255,255,0.08);
     position: absolute;
     transform: translate(-50%,-50%);
